@@ -8,7 +8,7 @@
      
 <!-- css-->
       <style>
-           h1{
+           #h1{
              text-align: center;
              
            }
@@ -21,11 +21,18 @@
              background-color: gold;
              font-size: 50px;
            }
+           #marginauto{
+              text-align: center;
+             background-color: cornflowerblue; margin: 30px;
+             margin-left: auto;
+             width: 100%; 
+             /*diferença da margin quando detreminando a largura 'whidth' compare os dois h1 da pagins*/
+           }
       </style>
 <!-- css-->
 
 <body>
-     <h1> margin - MARGEM</h1>
+     <h1 id="h1"> margin - MARGEM</h1>
        <div id="blocom">
           <p>blocom</p>
        </div>
@@ -38,5 +45,8 @@
        </ul>
        <br>
        <p>O espaçamento definido pelo "margin" pode ser aplicado externamente, empurrando os elementos vizinhos para longe, ou internamente, afetando o espaço dentro do elemento. Você pode usar valores negativos no "margin" para criar sobreposições entre elementos ou ajustar o espaçamento com mais precisão.</p>
+        <br>
+       <h1 id="marginauto">Margin Auto</h1>
+               
 </body>
 </html>
