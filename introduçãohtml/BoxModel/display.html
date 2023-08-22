@@ -20,7 +20,7 @@
             text-decoration: none;
             padding: 15px;
             display: inline-block; /*traformando o elemento de linha para elemento de bloco  , para ele recebr as propiedades com margin pandding e na fica bugado encima dos outros elementos de linha*/
-            
+
             /* o "inline-block" mantem como elemento de linha mais vai permitir que use as propriedades de formtação de um bloco - box model*/
          }
          strong{
@@ -28,7 +28,11 @@
              background-color: #fafafa;
              display: block;/* ocupando 100% da area gera quebra de linha ele conseguir ser formatado em um espaço com um bloco dentro do elemento de linha que é o texto o */
          }
+           em{
+               visibility: hidden;/*coteudo invisivel mais o espaço continua*/ 
+               /* display:none; apaga literalmente*/
 
+           }
    </style>
 <body>
       <h1> Box sizing</h1>
