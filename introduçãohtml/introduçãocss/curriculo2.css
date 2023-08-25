@@ -1,0 +1,22 @@
+body{
+    background-color: #dfdddd;
+    margin: 50px;
+}
+#h1gabriel{
+    text-align: center;
+    border-bottom:  rgba(44, 44, 220, 0.491);
+    background-color: rgba(44, 44, 220, 0.491);
+}
+h1{
+    color: rgba(2, 2, 107, 0.918);
+     background-color: #979696;
+     border-bottom: solid rgba(2, 2, 107, 0.918);
+}
+#brasileiro{
+    text-align: center;
+}
+
+a{
+    color: blue ;
+    text-decoration: none;
+}
