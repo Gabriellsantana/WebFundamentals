@@ -1,17 +1,23 @@
 body{
-    background-color: #dfdddd;
-    margin: 50px;
+    background-color: #cecdcd;
+    margin-left: 90px;
+    margin-right: 90px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 60px;
 }
 #h1gabriel{
     text-align: center;
     border-bottom:  rgba(44, 44, 220, 0.491);
     background-color: rgba(44, 44, 220, 0.491);
+    font-size: 40px;
+    
 }
 h1{
     color: rgba(2, 2, 107, 0.918);
      background-color: #979696;
-     border-bottom: solid rgba(2, 2, 107, 0.918);
+     border-bottom: solid  rgba(2, 2, 107, 0.918);
+     padding: 10px;
+     
 }
 #brasileiro{
     text-align: center;
@@ -21,3 +27,10 @@ a{
     color: blue ;
     text-decoration: none;
 }
+ul{
+    padding-left: 0;
+}
+li{
+    list-style-position: inside;
+}
+/* margin: auto  vai centralizar elementos de blocos, enquanto text-line: center vai centralizar os elementos de linha em sin o conteudo */
