@@ -33,4 +33,21 @@ ul{
 li{
     list-style-position: inside;
 }
+.menu{
+    text-align: right; /* como determinei no .menu a / display-inline-block  meus elementos 'a' na 'li' que se  transformaram em elementos de linha então text-align pode ser usado para movimentar elementos de linhas* text-align:right  elementos para direita*/
+}
+.menu li {
+    list-style-type: none;
+    margin: 10px;
+    display: inline-block;
+    padding: 0;
+
+}
+.menu a {
+    background-color: deepskyblue;
+    color: black ;
+    padding: 10px;
+    display: inline-block; /* detreminado a area clica exoandir a*/
+    border-radius: 10px;
+}
 /* margin: auto  vai centralizar elementos de blocos, enquanto text-line: center vai centralizar os elementos de linha em sin o conteudo */
