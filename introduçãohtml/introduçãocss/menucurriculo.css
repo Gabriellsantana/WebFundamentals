@@ -10,6 +10,7 @@ body{
     border-bottom:  rgba(44, 44, 220, 0.491);
     background-color: rgba(44, 44, 220, 0.491);
     font-size: 40px;
+    margin-bottom: 0;/*tirei a margin do h1 para poder colar o brasileiro embaixo dele*/
     
 }
 h1{
@@ -21,6 +22,9 @@ h1{
 }
 #brasileiro{
     text-align: center;
+    margin-top: 0;
+    background-color: #c6c8e8;
+    
 }
 
 a{
@@ -44,10 +48,15 @@ li{
 
 }
 .menu a {
-    background-color: deepskyblue;
-    color: black ;
+    background-color: rgba(44, 44, 220, 0.491);
+    color: rgba(2, 2, 107, 0.918);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     padding: 10px;
     display: inline-block; /* detreminado a area clica exoandir a*/
-    border-radius: 10px;
+    border-radius: 5px;
+    border: solid #cecdcd;
+}
+.menu a:hover{
+    background-color: deepskyblue;
 }
 /* margin: auto  vai centralizar elementos de blocos, enquanto text-line: center vai centralizar os elementos de linha em sin o conteudo */
