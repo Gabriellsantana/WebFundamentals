@@ -52,3 +52,24 @@ body{
 
     background-color: rgba(20, 20, 20, 0.767);
 }
+main{
+    width: 80%;
+    margin: auto; 
+    /*min-width: none;  largura minima - minimo de largura
+    max-width: none;  largura maxima */
+    /*as margin elas não soma  se sobrempoe*/
+}
+  
+article{
+    background-color: white;
+    margin-bottom: 32px;
+    margin-top: 32px;
+    padding: 16px;
+}
+
+article h2{
+      background-color: #eee;
+      margin-top: 0px;
+      border-bottom: 2px solid #ccc;
+      padding: 10px;
+}
