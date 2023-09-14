@@ -73,3 +73,13 @@ article h2{
       border-bottom: 2px solid #ccc;
       padding: 10px;
 }
+
+.btn{
+     background-color: #cdc7c3;
+     display: block;
+     padding: 12px;
+     margin-left: auto;
+     width: fit-content;
+     border-radius: 6px;
+     text-decoration: none;
+}
