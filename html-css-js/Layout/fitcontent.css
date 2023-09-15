@@ -1,0 +1,21 @@
+.conteiner{
+    margin-bottom: 10px;
+    border: 2px solid black;
+    padding: 16px;
+    width: 300px;
+}
+.item{
+    background-color: blueviolet;
+    padding: 5px;
+    margin-bottom: 10px;  
+}
+.fit-content .item{
+   width: fit-content;
+}
+.min-content{
+     width: min-content;
+}
+.max-content{
+    width: max-content;
+}
+
