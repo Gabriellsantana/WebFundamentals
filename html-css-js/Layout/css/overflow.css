@@ -1,0 +1,34 @@
+.conteiner{
+    margin-bottom: 10px;
+    border: 2px solid black;
+    padding: 16px;
+    width: 300px;
+    height: 300px;
+    background-color: rgba(255, 0, 0, .5);
+}
+.item{
+    background-color: blueviolet;
+    padding: 5px;
+    margin-bottom: 10px;  
+}
+.fit-content .item{
+   width: fit-content; 
+}
+.min-content{
+     width: min-content;  
+}
+.max-content .overflow{
+    width: max-content; 
+    
+}
+/*a propriedade overflow serve para que eu possa tratar o conteúdo que excede ao elemento*/
+.overflow-hidden{
+    overflow: hidden; /*todo conteudo esta dentro do connteiner*/
+}
+.overflow-scroll{
+    overflow: scroll; /*ele esconde o conteudo mais mais da um barra de rolagem no connteiner*/
+   
+}
+.overflow-auto{
+    overflow: auto;/*so vai fica barra de rolagem onde for necessario*/
+}
