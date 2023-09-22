@@ -1,0 +1,62 @@
+body{
+    background-color: #cecdcd;
+    margin-left: 90px;
+    margin-right: 90px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 60px;
+}
+#h1gabriel{
+    text-align: center;
+    border-bottom:  rgba(44, 44, 220, 0.491);
+    background-color: rgba(44, 44, 220, 0.491);
+    font-size: 40px;
+    margin-bottom: 0;/*tirei a margin do h1 para poder colar o brasileiro embaixo dele*/
+    
+}
+h1{
+    color: rgba(2, 2, 107, 0.918);
+     background-color: #979696;
+     border-bottom: solid  rgba(2, 2, 107, 0.918);
+     padding: 10px;
+     
+}
+#brasileiro{
+    text-align: center;
+    margin-top: 0;
+    background-color: #c6c8e8;
+    
+}
+
+a{
+    color: blue ;
+    text-decoration: none;
+}
+ul{
+    padding-left: 0;
+}
+li{
+    list-style-position: inside;
+}
+.menu{
+    text-align: right; /* como determinei no .menu a / display-inline-block  meus elementos 'a' na 'li' que se  transformaram em elementos de linha então text-align pode ser usado para movimentar elementos de linhas* text-align:right  elementos para direita*/
+}
+.menu li {
+    list-style-type: none;
+    margin: 10px;
+    display: inline-block;
+    padding: 0;
+
+}
+.menu a {
+    background-color: rgba(44, 44, 220, 0.491);
+    color: rgba(2, 2, 107, 0.918);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 10px;
+    display: inline-block; /* detreminado a area clica exoandir a*/
+    border-radius: 5px;
+    border: solid #cecdcd;
+}
+.menu a:hover{
+    background-color: deepskyblue;
+}
+/* margin: auto  vai centralizar elementos de blocos, enquanto text-line: center vai centralizar os elementos de linha em sin o conteudo */

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>display</title>
+</head>
+   <style>
+         h1{
+            border: solid rgb(255, 179, 1);
+            width: 50%;
+         }
+
+         p{
+            width: 50%;
+            background-color: #ccc;
+         }
+         a{
+            background-color: yellow;
+            text-decoration: none;
+            padding: 15px;
+            display: inline-block; /*traformando o elemento de linha para elemento de bloco  , para ele recebr as propiedades com margin pandding e na fica bugado encima dos outros elementos de linha*/
+
+            /* o "inline-block" mantem como elemento de linha mais vai permitir que use as propriedades de formtação de um bloco - box model*/
+         }
+         strong{
+             padding: 25px;
+             background-color: #fafafa;
+             display: block;/* ocupando 100% da area gera quebra de linha ele conseguir ser formatado em um espaço com um bloco dentro do elemento de linha que é o texto o */
+         }
+           em{
+               visibility: hidden;/*coteudo invisivel mais o espaço continua*/ 
+               /* display:none; apaga literalmente*/
+
+           }
+   </style>
+<body>
+      <h1> Box sizing</h1>
+      <br>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga suscipit similique, qui debitis iste cum alias veritatis. <a href="BoxModel.html">BOX MODEL HTML</a>Minus facere corrupti quidem fugiat quia dignissimos minima ad dolorem quod quaerat nam eius voluptate placeat aliquid alias dolor impedit, et exercitationem?<b>TEXTO EM NEGRITO</b> Laborum odio commodi porro perspiciatis accusantium rerum deleniti iure? <strong> Texto em negrito com  strong</strong>Quae dolore enim labore qui consectetur dolor tempora. Adipisci commodi nulla sequi inventore, pariatur quasi voluptatibus <em>texto em italico com < em ></em> accusamus consectetur minima qui, repudiandae recusandae iste excepturi assumenda est incidunt quod nisi distinctio dolorem at, voluptate fuga cum exercitationem. Labore, quos natus? Non quae tempore fuga repellat aspernatur. Error impedit voluptatibus quisquam deleniti cupiditate amet?</p>
+</body>
+</html>

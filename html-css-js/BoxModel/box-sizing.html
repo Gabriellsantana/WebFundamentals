@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+    <style>
+            p{
+                 width: 500px; /*largura*/
+                 background-color: #ccc;
+
+            }
+            .p2{
+                padding: 25px;
+            }
+            .p3{
+                 padding: 25px;
+                 border: 10px solid green;
+              /*esse exemplo p1 p2 são para demostra que o pandding e borda esta acrecentando no tamanho do elmento final  todos os paragrafos tem um width 'largura' de 500pixel  mais no p1 p2 eles tem 500px + 25px + 10px*/
+            }
+            .p4{
+                padding: 25px;
+                border: 10px solid green;
+                box-sizing: border-box; /* com essa linha de codigo o paragrafo ele se ajusta ao 500px que foi determinado mesmo recebendo border e padding na verdade ele diminui o conteudo dentro da area e se ajusta 500px-25px -10px =   */
+            }
+    </style>
+<body>
+    <h1>box-sizing</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit minus at vel sequi dignissimos eveniet deleniti in repellat velit reprehenderit, esse nisi deserunt. Cupiditate voluptates, reprehenderit laboriosam sunt provident assumenda. Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel praesentium sequi minus. Dolorem consectetur, ab, quas, voluptatem expedita quaerat quidem distinctio similique asperiores inventore unde ea vitae assumenda. Quod, recusandae!</p>
+    <br>
+    <p class="p2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit minus at vel sequi dignissimos eveniet deleniti in repellat velit reprehenderit, esse nisi deserunt. Cupiditate voluptates, reprehenderit laboriosam sunt provident assumenda. Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel praesentium sequi minus. Dolorem consectetur, ab, quas, voluptatem expedita quaerat quidem distinctio similique asperiores inventore unde ea vitae assumenda. Quod, recusandae!</p>
+    <br>
+    <p class="p3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit minus at vel sequi dignissimos eveniet deleniti in repellat velit reprehenderit, esse nisi deserunt. Cupiditate voluptates, reprehenderit laboriosam sunt provident assumenda. Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel praesentium sequi minus. Dolorem consectetur, ab, quas, voluptatem expedita quaerat quidem distinctio similique asperiores inventore unde ea vitae assumenda. Quod, recusandae!</p>
+    <br>
+    <p class="p4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit minus at vel sequi dignissimos eveniet deleniti in repellat velit reprehenderit, esse nisi deserunt. Cupiditate voluptates, reprehenderit laboriosam sunt provident assumenda. Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel praesentium sequi minus. Dolorem consectetur, ab, quas, voluptatem expedita quaerat quidem distinctio similique asperiores inventore unde ea vitae assumenda. Quod, recusandae!</p>
+</body>
+</html>

@@ -1,0 +1,33 @@
+.conteiner{
+    background-color: #ccc;
+     margin-top: 15%;
+     width: 600px;
+
+    
+}
+#div1{
+    
+    margin: 10px;
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+    float: right;
+   
+}
+#div2{
+    margin: 10px;
+    height: 200px;
+    width: 200px;
+    background-color: blueviolet;
+    float: left;
+   
+}
+#div3{
+    margin: 10px;
+    height: 200px;
+    width: 200px;
+    background-color: brown;
+    clear: left; /*aqui  eu barrei que a div3 ocupasse o espaço deixado pela div 2 com float-left ai ela se manteve no mesmo lugar*/
+    clear: both;/* clear-both faz com quer a div3 não se inporte com qualquer flaot anterior tanto left e right */
+}
+/* float: left; faz com quer as div se sobre ponha  ou para img floatoar a lado de textos   clear é usado para barra e efeitos colaterais de sobrepor */
