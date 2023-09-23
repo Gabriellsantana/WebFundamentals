@@ -1,0 +1,36 @@
+#um{
+    background-color: chartreuse;
+    padding: 10px;
+    width: 90%;
+    height: 200px;
+    
+}
+#dois{
+    background-color: deepskyblue;
+    padding: 10px;
+    width: 90%;
+    height: 120px;
+     
+}
+#tres{
+    background-color: gold;
+    padding: 10px;
+    width: 80px;
+    height: 45px;
+    position: absolute;
+    bottom: 20px;
+
+}
+
+/*O elemento position em CSS é usado para controlar como um elemento HTML é posicionado em relação ao seu contêiner ou à página como um todo. Existem quatro valores principais para a propriedade position:*/
+
+/*POSITION-STATIC  static : Este é o valor padrão para todos os elementos. Os elementos com posição estática são posicionados na ordem normal do fluxo do documento, e as propriedades top, right, bottom e left não têm efeito sobre eles.*/
+
+/*POSITION-RELATIVE relative: Quando você define position: relative;, você pode usar as propriedades top, right, bottom e left para mover o elemento em relação à sua posição normal no fluxo do documento. Isso é útil quando você deseja fazer ajustes de posicionamento relativos ao local onde o elemento normalmente apareceria. vc pode adequela uma div em qualquer lugar da pagiana ela não vai de basear em nunhm elemento para se posionar*/
+
+/*POSITON-ABSOLUTE  absolute: Com position: absolute;, o elemento é removido do fluxo normal do documento e posicionado com base no elemento pai mais próximo que tenha uma posição não estática (ou seja, relative, absolute, ou fixed). Isso é frequentemente usado para criar sobreposições ou elementos posicionados com precisão em relação a outros elementos na página. isso fax com quer a div se posicione dentro de outra que seja seu pai sobrepondo*/
+
+/*POSITION-FIXED fixed: O valor position: fixed; posiciona o elemento em relação à janela de visualização do navegador, independentemente de rolagem. Isso é comumente usado para criar elementos que permanecem fixos enquanto você rola a página, como barras de navegação ou cabeçalhos.*/
+
+/*POSITION-STICKY A propriedade position: sticky; é usada em CSS para criar elementos que têm um comportamento híbrido entre position: relative; e position: fixed;. Essa propriedade permite que um elemento fique "preso" em uma posição específica na página enquanto o usuário rola o conteúdo, mas ele só se comporta assim quando atinge um ponto de referência definido*/
+/**/
