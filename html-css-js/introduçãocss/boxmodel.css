@@ -1,0 +1,21 @@
+*{
+    text-align: center;
+     font-family: Arial, Helvetica, sans-serif;
+     background-color: brown;
+     color: whitesmoke;
+}
+img{
+    width: 400px;
+    height: 400px;
+    margin-top: 80px;
+    margin-right: 85px;
+  
+}
+div{
+    display: inline-flex;
+
+}
+
+/* porque usar px ou %  quando voçê determina 50px "pixel" o seu elemento vai ter esse valor idependente da largura da da sua tela agora quando vc determina 50% seu elemento vai considera que sua tela tem 100% de largura e ele sempre vai se comporta 50%  na tela que vai ter 100% então se vc dimunie a tela o seu elemento vai acompanhar  ficando sempre 50% dela*/
+
+/* mais a altura "height" fucionar com px*/

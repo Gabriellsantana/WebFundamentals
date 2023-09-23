@@ -1,0 +1,33 @@
+*{
+    background-color: darkorchid;
+}
+h1{
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 25px;
+  
+}
+.destaque{
+    color: aliceblue;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    margin-left: 20px; /*afastando da margin da esquerda */
+    
+    
+}
+a{
+    text-align: right; /*A propriedade text-align: right; alinhará o conteúdo do elemento à direita dentro do seu contêiner pai. Nesse caso, o texto será alinhado completamente ao lado direito da tela. Desculpe pelo erro anterior e obrigado por esclarecer!*/ 
+    display: flex;
+    color: springgreen;
+    text-decoration: none;
+    text-decoration: line-through;
+   
+   
+}
+h5{
+    font-size: 18px;
+    text-align: center;
+   
+   
+
+}

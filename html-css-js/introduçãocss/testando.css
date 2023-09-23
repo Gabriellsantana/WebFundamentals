@@ -1,0 +1,64 @@
+
+*{
+    background-color: darkkhaki;
+}
+h1{
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    text-transform: uppercase;/*coloca o texto todo em maisculo*/
+}
+p{
+    color: blue;
+     text-align: center;
+     margin-top: 20px;
+     text-transform: capitalize; /* colo todas as primeiras letras em maiusculo */
+     font-size: 30px;
+     text-indent: 30px; /*afastaemto do pargrafo  exemplo começo de frase vc escreve afastado do paragrafo*/
+     
+}
+#jovemnegro{
+    color: black;
+    font-size: 30px; /* tamanho das letras*/
+    font-family: Arial, Helvetica, sans-serif; /* fonte da letras*/
+    font-weight: 700; /*grosura das letras*/
+    margin-top: 30px; /* afastamento do margin de cima*/
+    margin-left: 40px;/* afastamento da margin da  esquerda*/
+    margin-right: 40px;/*afastamento da marfin da direita*/
+    text-decoration: line-through; /* adiciona um risco em cima da palavra*/
+   
+   
+}
+div{
+   display: inline-flex; /*alihando os elementos em linha um do lado do outro*/
+   margin-top: 30px;
+}
+#bloco1{
+    background-color: rgb(0, 255, 8);
+    width: 120px;
+    height: 120px;
+    margin-right: 40px;
+    margin-left: 180px;
+    border-radius: 60px;
+}
+#bloco2{
+    background-color: red;
+    width: 120px;
+    height: 120px;
+    margin-right: 40px;
+    border-top-right-radius: 600%;
+}
+
+#bloco3{
+    background-color: blue;
+    width: 120px;
+    height:120px;
+    border-radius: 30px;
+}
+a{
+    text-decoration: none; /*serve para tira o subriado do texto que é um Link*/
+    font-size: 20px;
+    color: black;
+   text-decoration: line-through;
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}

@@ -1,0 +1,21 @@
+.conteiner{
+    margin-bottom: 10px;
+    border: 2px solid black;
+    padding: 16px;
+    width: 300px;
+}
+.item{
+    background-color: blueviolet;
+    padding: 5px;
+    margin-bottom: 10px;  
+}
+.fit-content .item{
+   width: fit-content; /*o fit-content faz com que a div fique do tamanho do conteudo*/
+}
+.min-content{
+     width: min-content;  /* main-content ou menor-conteudo faz com que a div fique do tamanho do menor conteudo , ela vai pegar o menor conteudo do seu elemento de referencia e se adequar a ele */
+}
+.max-content{
+    width: max-content;  /* max-content ou maior-conteudo faz com que a div fique do tamanho do maior conteudo do seuu elmento */
+}
+

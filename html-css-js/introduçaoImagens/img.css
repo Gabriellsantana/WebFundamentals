@@ -1,0 +1,33 @@
+body{
+    font-size: 22px;
+    font-family: sans-serif;
+    width: 700px; /*largura*/
+    margin: auto;/*para fica centralizado*/
+
+
+     /*backgroud pra iamgem*/
+
+    background-image: url(imagens/bg.jpg) ;/*imagem de fundo da página*/
+
+    background-repeat: no-repeat; /* O background-repeat tem varias propiedades :repeat-y a img so ia se repetir o exo y no caso na vertical da pagina , repeat-x seria na horizontal */ 
+
+    background-size:cover;
+    /* background-size:100% 100%;  dimessão da imagem o 100 da frente é sempre a largura e depois é altura , com essa linha to ordenando que a imagem se estique 100 na tela tanto na largura tanto na altura*/
+
+    background-position: right bottom; /* aqui poder ser trabalhado com px tmb ou com as palvras direcionadas como height bottom etc*/
+
+    background-attachment: fixed;/*fixando a img na tela ela não ira se movimentar com a pagina da um efeito bem melhor*/
+}
+
+p{
+    line-height: 1.5; /* height - altura  line-linha  dando aultura de uma linha para outra almentando o espaço de baixo para cima entre elas*/
+}
+.logo{
+    width: 400px;
+}
+.img-html{
+    float: left; /*imagem flutoar para esquerda*/
+}
+.img-css{
+   float: right; /*flutoar para direita*/
+}
