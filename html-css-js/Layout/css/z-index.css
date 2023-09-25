@@ -1,0 +1,46 @@
+div {
+    border: 4px solid black;
+    padding: 12px;
+    margin-bottom: 12px;
+    background-color: rgba(0, 0, 0, .2);
+    font-size: 18px;
+    font-family: sans-serif;
+    width: 60%;
+}
+
+
+.div2.group2 {
+   /* position: absolute; */
+    top: 0;
+    right: 0;
+    background-color: white;
+    z-index: 2;
+}
+
+.div2.group1 {
+     position: absolute; 
+    top: 100px;
+    left: 0;
+    background-color: white;
+    /* z-index: 0; */
+}
+
+.div3.group1 {
+    position: relative;
+    z-index: 2;
+    background-color: red;
+}
+
+.div4.group1 {
+    position: relative;
+    bottom: 35px;
+    left: 15px;
+    background-color: yellow;
+    z-index: 3;
+}
+
+/*propriedade z-index serve para ordem de peocedentes , se caso um div sobrepor a outra por conta do position:absolute div vai seguir a ordem do html que por padrão tem z-index 0 então a div que estiver na frente la no html vai fica na frente, mais com z-index vc poder determinar quem fica na frente de quem */
+
+/*a propriedade z-index funciona quando as div tem algumas  outra propriedade position:absolut, retive etc; ou nescessarimente não*/
+
+/*GPT : A propriedade `z-index` no CSS controla a sobreposição de elementos em uma página web. Ela determina a ordem em que os elementos são empilhados uns sobre os outros no eixo Z (profundidade) do espaço tridimensional da página. Um valor maior de `z-index` coloca um elemento sobre os elementos com valores menores. Isso é útil para controlar a camada de elementos em layouts sobrepostos, como menus suspensos, modais e elementos de sobreposição em geral.*/
