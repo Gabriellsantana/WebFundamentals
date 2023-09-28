@@ -3,7 +3,7 @@ html, body{
 }
 
 body {
-    background-color: aqua;
+    background-color:cornflowerblue;
     margin: 0;
     padding: 0;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -26,4 +26,47 @@ body {
     overflow-y: auto;
     border-radius: 7px;
     box-shadow: 0 2px 6px rgb(0,0,0, .2);
+}
+.list{
+    list-style-type: none;
+    padding: 0;
+    margin: 0%;
+}
+.list-item{
+     display: flex;
+     border-bottom: 2px solid #eee;
+     padding: 16px;
+}
+.listt-item-image img{
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+}
+.list-contatos{
+    padding: 0 20px;
+    flex-grow: 1; /*a div oculpa todo espaço que sobra */
+}
+.list-nome{
+    font-size: 24px;
+    color: #385555;
+    margin: 0;
+}
+.list-email{
+    margin: 5px 0 0 ;
+    color: #aaa;
+}
+
+.list-item:hover{
+    background-color: #e8e8e8;
+}
+.item-botoes{
+    display: flex;
+    align-items: center;
+    gap: 13px; /*afastando os elementos do outro*/
+    opacity: 0; /*transparencia */
+}
+.list-item:hover .item-botoes{ /*quando eu paso mause na minha div list-item ai eu solicito que o evento hover aconteca para minha class item-botoes por isso ela vem depois do hover */
+    opacity: 0.3;
+
+
 }
