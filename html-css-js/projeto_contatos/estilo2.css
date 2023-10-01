@@ -1,0 +1,60 @@
+html, body{
+    height: 100%;
+}
+
+body {
+    background-color:cornflowerblue;
+    padding: 32px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     margin: 0%;
+    display: flex;/* aplicando o flexBox*/
+    justify-content: center; /*propriedade flexBox pra centralizar os elementos do conteiner horizontal"*/
+    align-items: center; /*centralizando na vertical*/
+    flex-direction:column; /* o display flax ja vem por padrão com row que deixa todos os elementos na mesma linha mais  flex-direction:column; coloca os elementos em colunas */
+  
+}
+
+.main-title {
+    color: #385555;
+}
+
+.list{
+    width: 90%;
+    max-width: 960px;
+    display: flex;
+    flex-wrap: wrap; /*quebra linha*/
+    justify-content: center;
+    list-style-type: none;
+    gap: 16px;
+    
+}
+.list-item{
+    flex-basis: 280px;
+    background-color: white;
+    border-radius: 5px;
+    text-align: center;
+    background-image: url(imagens/thumb04.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.listt-item-image img{
+    border-radius: 50%;
+    width: 80px;
+    margin-top: 120px;   
+}
+.item-botoes {
+    display: flex;
+    background-color: #e5e5e5;
+    padding: 16px;
+    justify-content: space-evenly;
+    gap: 16px;
+}
+.list-contatos{
+    color: #385555 ;
+    margin: 0;
+}
+
+
+/*A propriedade CSS background-size: 100%; é usada para redimensionar uma imagem de fundo de um elemento HTML de modo que ela cubra 100% da largura do elemento pai. Resumidamente, ela ajusta o tamanho da imagem de fundo para preencher todo o elemento pai horizontalmente, mantendo a proporção original da imagem. Isso é útil para criar fundos responsivos que se ajustam automaticamente ao tamanho do contêiner pai.*/
+
+
