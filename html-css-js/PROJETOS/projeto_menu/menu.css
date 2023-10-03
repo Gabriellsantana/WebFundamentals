@@ -26,6 +26,7 @@ h1{
     font-size: 36px;
     text-transform: uppercase;
     margin-left: 16px;
+    letter-spacing: 6px;
 }
 .header-ul{
     display: flex;
@@ -47,18 +48,59 @@ h1{
     color: black;
 }
 
-
-
-
-
-
 .conteudo-section{
     display: flex;
-    gap: 12px;
-    background-color: #cbe300;
+    gap: 14px;
+
+    
 }
 .conteudo-div{
-    background-color: #0c1014;
-    justify-content:space-between;
+    margin-top: 40px;
+    background-color: #1f262c;
+    flex-grow: 1;
+    box-shadow: 0 5px 12px 4px black;
+    border-radius: 6px;
+    padding: 36px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
 }
-
+.conteudo-h2 {
+    text-transform: uppercase;
+    padding-bottom: 7px;
+    margin: 0;
+    border-bottom: 1.9px solid #cbe300;
+    letter-spacing: 6px;
+   
+}
+p{
+    font-size:20px;
+}
+.conteudo-ul li {
+    margin: 0 0 15px 0;
+    color:#b5b5b5 ;
+   padding-left: 16px;
+   line-height: 1.8;/*esticando o conteudo da linha para direita*/
+}
+.conteudo-ul li::marker{
+    color: #cbe300;
+}
+.conteudo-button{
+      font-size: 20px;
+      border-radius: 6px;
+      border: none;
+      padding: 10px;
+      background-color: #cbe300;
+     text-transform: uppercase;
+     cursor:pointer;
+     width: 80%;
+     margin-left: 23px;
+     margin-top: 30px;  
+}
+.conteudo-button:hover{
+    background-color: #0c1014;
+    color: #cbe300;
+}
+.conteudo-ul{
+     flex-grow: 1;
+}
