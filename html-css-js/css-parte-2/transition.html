@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>transition</title>
+</head>
+     <style>
+           div{
+               background-color: turquoise;
+               width: 200px;
+               height: 150px;
+               margin: 100px auto;
+
+               transition-property: all;
+               transition-duration: 1s;
+               transition-delay: 1s;
+             /*a propriedade (transition) receber os valores nessa oredem que é um atalho / transition: property , duration , function delay;*/
+           }
+
+           div:hover{
+                background-color: blueviolet;
+                height: 300px;
+                width: 400px;
+           }
+
+           .transition-div{
+                background-color: orange;
+                transition-property: width , height , background-color;
+                transition-duration: .5s, 1s;
+                transition-delay:  0s, .9s;
+
+
+           }
+           .transition-div:hover{
+            background-color: orangered;
+               width: 400px;
+               height: 300px;
+           } 
+           /*"propriedades" especifica quais propriedades CSS devem ser animadas (por exemplo, "all", "width", "color").
+"duração" determina quanto tempo a transição deve durar (em segundos ou milissegundos).
+"atraso" define um período de espera antes que a transição comece (opcional).
+"curva-de-temporização" controla a aceleração e desaceleração da animação (opcional).
+Além da propriedade "transition", há várias outras propriedades relacionadas a transições em CSS. Algumas delas incluem:
+
+transition-property: Especifica as propriedades CSS que serão animadas. Pode ser definido como "all" para animar todas as propriedades ou especificar propriedades individuais.
+
+transition-duration: Define a duração da transição, ou seja, quanto tempo levará para a transição de um estado para outro.
+
+transition-timing-function: Controla a curva de temporização da transição, determinando como a animação acelera ou desacelera ao longo do tempo. Valores comuns incluem "ease", "linear", "ease-in", "ease-out" e "ease-in-out".
+
+transition-delay: Define um atraso antes que a transição comece a ocorrer, permitindo que você aguarde um certo período antes da animação.
+
+transition-shorthand: A propriedade "transition" é uma propriedade de atalho que combina todas as propriedades de transição em uma única declaração.*/
+     </style>
+<body>
+       <div></div>
+       <div class="transition-div"></div>
+</body>
+</html>
