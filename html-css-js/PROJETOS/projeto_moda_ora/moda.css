@@ -1,3 +1,84 @@
 body{
     margin: 0%;
+    width: 100%;
+    font-family: initial;
 }
+.nav-header{
+    display: flex;
+    gap: 50%;
+    background-color: #162028;
+    justify-content: end;
+}
+.nav-h2{
+    color: white;
+     margin-left: 10px;
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     font-size: 23px;
+    
+}
+.nav-ul{
+    color: #425564;
+    display: flex;
+    gap: 23px ;
+    margin-right: 50px;
+   list-style: none; 
+   align-items: center;
+}
+.nav-ul-li{
+    font-size: 20px;
+    letter-spacing: 5px;
+}
+.img-top{
+    width: 100%;
+}
+.section-conteudo{
+    padding: 30px;
+}
+.section-div-conteudo{
+    margin: 16px;
+    text-align: center;
+}
+.section-div-conteudo h1{
+    margin: 20px;
+    padding: 20px;
+    font-size: 45px;
+}
+.section-div-conteudo p{
+    padding: 15px;
+}
+.section-contaeiner{
+    display: flex;
+    justify-content: center;
+    gap: 19px ;
+   margin-top: 50px;
+}
+.section-contaeiner h4{
+    text-align: center;
+}
+
+footer{
+    background-image: url(imagens/bg_detalhe.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.footer-div{
+    color: white;
+    padding: 15px;
+    margin-left: 25px;
+    
+}
+.footer-div h1{
+    margin-top: 90px;
+}
+.footer-div p{
+    font-size: 26px;
+}
+.rodar-pe{
+    background-color: #0b171f;
+    color: #6f8597;
+    padding: 20px;
+    text-align: center;
+    font-size: 18px;
+}
+
