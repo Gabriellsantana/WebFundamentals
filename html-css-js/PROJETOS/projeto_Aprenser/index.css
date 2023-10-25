@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Inter', sans-serif;
+    
 }
 :root{
     --colorr--: #FED001;
@@ -12,13 +13,41 @@
 }
 .div-cor-nav{
     background-color: #2a2a2a;
+    color: #fafafa;
 }
 .div-section2{
     background-color: #fafafa;
 }
 .div-section3{
     background-color: #003464;
+    color: #fafafa;
 }
-.header-nav {
-    display:flex; 
+.container{
+    max-width: 1276px;
+    margin: auto;
 }
+nav a{
+    color: var(--colorr--);
+}
+/*---------------------nav-------------------*/
+.header-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 0;
+    
+}
+.nav-bar a{
+    padding: .75em 1.15rem;
+    border: solid 0.5px var(--colorr--);
+    text-decoration: none;
+}
+.nav-bar ul {
+    display: flex;
+    gap: 7px;
+    list-style: none;  
+}
+
+
+
+
