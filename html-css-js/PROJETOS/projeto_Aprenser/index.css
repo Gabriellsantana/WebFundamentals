@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+:root{
+    --colorr--: #FED001;
+} 
+.upper{
+    text-transform: uppercase;
+}
+.div-cor-nav{
+    background-color: #2a2a2a;
+}
+.div-section2{
+    background-color: #fafafa;
+}
+.div-section3{
+    background-color: #003464;
+}
+.header-nav {
+    display:flex; 
+}
