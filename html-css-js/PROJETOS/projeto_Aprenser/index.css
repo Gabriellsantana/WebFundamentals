@@ -8,6 +8,10 @@
 :root{
     --colorr--: #FED001;
 } 
+h1{
+    font-size: 4.8rem; /*48px*/
+    margin-bottom: 45px;/*tiver que aplicar para meu bnt descer mais*/
+}
 .upper{
     text-transform: uppercase;
 }
@@ -47,7 +51,28 @@ nav a{
     gap: 7px;
     list-style: none;  
 }
-
+.nav-bar a:hover{
+    background-color: black;
+}
+/*---------------------nav-------------------*/
+.div-section1{
+    /*background-color: var(--colorr--);*/
+    background-image: linear-gradient(white,yellow);/*mistura as cores */
+}
+.section1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20rem;
+}
+.section-btn{
+    color: black;
+    background-color: var(--colorr--);
+    border-radius: 4px;
+    font-size: 1.8rem;
+    padding: 10px 25px;
+    text-decoration: none;
+}
 
 
 
