@@ -12,6 +12,12 @@ h1{
     font-size: 4.8rem; /*48px*/
     margin-bottom: 45px;/*tiver que aplicar para meu bnt descer mais*/
 }
+h2{
+    font-size: 4rem;
+}
+h3{
+   font-size: 1.5rem;
+}
 .upper{
     text-transform: uppercase;
 }
@@ -55,6 +61,8 @@ nav a{
     background-color: black;
 }
 /*---------------------nav-------------------*/
+
+/*---------------------baner (O SABER QUE TRANSFORMA NOSSO SER)-------------------*/
 .div-section1{
     /*background-color: var(--colorr--);*/
     background-image: linear-gradient(white,yellow);/*mistura as cores */
@@ -66,6 +74,7 @@ nav a{
     gap: 20rem;
 }
 .section-btn{
+
     color: black;
     background-color: var(--colorr--);
     border-radius: 4px;
@@ -73,6 +82,61 @@ nav a{
     padding: 10px 25px;
     text-decoration: none;
 }
+/*---------------------baner (O SABER QUE TRANSFORMA NOSSO SER)-------------------*/
 
+/*---------------------baner (PRINCIPAIS CURSOS)-------------------*/
+.section2{
+       text-align: center;
+       padding: 10px;
+       margin-top: 13px;      
+       margin-bottom: 15px; 
+}
 
+.cursocontainer{ 
+    display: flex;
+    text-align: left;
+    gap: 1.5rem;   
+}
+.article-cursos{
+    flex: 1;
+}
+.article-cursos img{
+    display: block;
+    width: 100%;
+}
 
+.curso-conteudocards{
+    padding: 1rem 1.25rem;
+    border-radius: 0 0 8px 8px;
+    overflow: hidden;
+    border: solid 1px #949494;
+    border-top: transparent;
+}
+.conteudo-section2-img p{
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+}
+
+.section3 h2{
+    margin-top: 15px;
+}
+.curso-btn{
+    color: black;
+    background-color: var(--colorr--);
+    border-radius: 4px;
+    font-size: 1.8rem;
+    padding: 10px 25px;
+    text-decoration: none;
+    margin-top: 12px;
+  
+}
+
+.h2-btn {
+    text-align: center;
+}
+.h2-btn h2{
+      padding: 3.5rem;
+}
+.butão{
+    padding: 3.5rem;
+}
