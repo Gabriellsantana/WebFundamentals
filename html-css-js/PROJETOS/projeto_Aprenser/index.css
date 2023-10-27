@@ -140,3 +140,15 @@ nav a{
 .butão{
     padding: 3.5rem;
 }
+
+/*----------------------------*/
+.section3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+}
+.onteudoescola{
+    padding: 12px;
+    
+}
