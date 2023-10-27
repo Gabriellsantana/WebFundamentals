@@ -24,6 +24,8 @@ h3{
 .div-cor-nav{
     background-color: #2a2a2a;
     color: #fafafa;
+    position: sticky;/*fixa o elemento e ainda matem o fluxo do documentor top 0 para deica no top*/
+    top: 0;
 }
 
 .div-section3{
@@ -43,6 +45,7 @@ nav a{
     justify-content: space-between;
     align-items: center;
     padding: 2rem 0;
+    
     
 }
 .nav-bar a{
@@ -168,4 +171,20 @@ nav a{
 .mapa{
     width: 100%;
     border-radius: 12px;
+}
+/*-----------contatos maps-------------------*/
+
+.rodape{
+    font-size: 1.6rem;
+    text-align: center;
+    padding: 4.5rem;
+    background-color:rgb(44, 42, 42);
+   margin-top: 15px;
+   
+}
+.rodape a{
+    background-color: inherit;
+    text-decoration: none;
+    color: #FED001;
+   
 }
