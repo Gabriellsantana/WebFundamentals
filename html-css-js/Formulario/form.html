@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario</title>
+</head>
+<body>
+       <form action="">
+          <fieldset>
+             <legend>Introdução</legend>
+             <input type="email"  name="email" required>
+             <br>
+             <br>
+             <label for="">quantindade de depedente</label>
+             <br>
+             <input type="number" >
+             <br><br>
+             <label for="">Data</label>
+             <input type="date">
+             <br><br>
+              <input type="radio" name="atv">sim 
+              <input type="radio" name="atv">não
+              <br><br>
+             <input type="submit" value="submit">
+          </fieldset>
+           <fieldset>
+             <legend> Area de interesse</legend>
+             <label ><input type="checkbox" name="interesse" value="html"> Html</label>
+             <label ><input type="checkbox" name="interesse"  value="css"> Css</label>
+             <label ><input type="checkbox" name="interesse"  value="js"> Js </label>
+             <label ><input type="checkbox" name="interesse"  value="django"> Django</label>
+           </fieldset>
+           <br> <br>
+            <select name="selecione" required> 
+            <option> SELECIONE
+               <option value="html">html</option>
+               <option value="html">Java</option>
+               <option value="html">PhP</option>
+               <option value="html">Python</option>
+           </option>
+            </select>
+             <br>
+              <input type="text" list="list"> 
+               <datalist id="list"> 
+                  <option value="html">html
+                  <option value="html">Java
+                  <option value="html">PhP
+                  <option value="html">Python
+               </datalist>
+              
+       </form>
+</body>
+</html>
