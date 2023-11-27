@@ -1,0 +1,52 @@
+html{
+    background-color: #181818;
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /*centrealizou no meio*/
+    margin: 0%;
+}
+form{
+    width: 90%;
+    min-width: 28.125em;
+    max-width: 560px;
+    padding: 3em;
+}
+fieldset{
+    margin: 0;
+    padding: 1em;
+}
+label,
+input,
+textarea{
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+input, textarea{
+    background-color: rgba(0,0,0,.3);
+    border: solid transparent 1px;
+    border-bottom-color: #bbb;
+    padding: .75em;
+    margin: .5em 0 2.5em;
+}
+legend{
+    padding: .5rem;
+    text-align: center;
+    font-weight: bold;
+    color: #8e999a;
+    font-size: 1.3em;
+}
+.btn{
+    background-color: aliceblue;
+    cursor:pointer;
+    padding: .7em;
+    font-size: 1.2em;
+    border: none;
+    width: 20%;
+}
