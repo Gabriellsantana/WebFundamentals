@@ -1,6 +1,6 @@
 html{
     background-color: #181818;
-    color: red;
+    color: white;
     font-family: Arial, Helvetica, sans-serif;
 }
 body{
@@ -26,6 +26,7 @@ textarea{
     display: block;
     width: 100%;
     box-sizing: border-box;
+    color: white;
 }
 
 input, textarea{
@@ -34,6 +35,7 @@ input, textarea{
     border-bottom-color: #bbb;
     padding: .75em;
     margin: .5em 0 2.5em;
+    
 }
 legend{
     padding: .5rem;
@@ -49,4 +51,21 @@ legend{
     font-size: 1.2em;
     border: none;
     width: 20%;
+    color: blue;
+    border-radius: 5px;
 }
+/*pesseudoclass*/
+input:invalid:focus, textarea:invalid:focus{
+    border-bottom: 2px solid #ff000d;
+    outline: 0;
+}
+input:valid:focus, textarea:valid:focus{
+   border-bottom:2px solid #0ec72a;
+}
+input:focus, textarea:focus{
+    border-bottom: 2px solid #8e999a;
+    color: #2a2727;
+    outline: 0;
+    color: white;
+}
+

@@ -1,0 +1,74 @@
+html{
+      background-color: blueviolet;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+form{
+    width: 90%;
+    padding: 5rem;
+    min-width: 28.125em;
+    max-width: 560px;
+    
+    
+}
+fieldset{
+    margin: 0;
+    padding: 1rem;
+    background-color: white;
+    box-shadow: -2px 1px 3px rgba(0, 0, 0, 0.589);
+    border: none;
+    padding: 1.5rem;
+}
+label, input{
+    display: block;
+    margin-top: .3rem;
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    outline: 0;
+    padding: .2rem;
+}
+input{
+    border-bottom: 2px solid rgb(0, 123, 255);
+}
+.cadastre-se{
+    font-size: 2rem;
+}
+label{
+    font-size: 1.2rem;
+}
+.btn{
+    border: none;
+    font-size: 1.5rem;
+    width: 30%;
+    padding: .5rem;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(0, 123, 255);
+}
+.div-btn{
+    display: flex;
+    margin-top:2.5rem;
+    align-items: center;
+    justify-content: space-between;
+}
+.link{
+    display: flex;
+    align-items: center;
+}
+.link a{
+    text-decoration: none;
+}
+
+input:invalid:focus{
+    border-bottom: 2px solid #ff000d;
+}
+input:valid:focus{
+    border-bottom: 2px solid #0ec72a;
+}
