@@ -17,6 +17,7 @@ fieldset{
     box-shadow: -5px 0 3px rgba(0, 0, 0, 0.589);
     border: none;
     padding: 1.5rem;
+    width: 100%;
 }
 .label-login{
     font-size: 2rem;
@@ -46,7 +47,6 @@ input:valid:focus{
     align-items: center;
     margin-top: 2rem;
     width: 100%;
-  
 }
 
 .div-login{
@@ -67,11 +67,13 @@ button{
 }
 .div-login a {
     width: 100%;
+    font-size: 1.3rem;
+    text-decoration: none;
+}
+a{
     text-decoration: none;
     color:rgb(0, 123, 255);
-    font-size: 1.3rem;
 }
-
-
-
-
+.div_esqueceu_senha {
+    width: 100%;
+}
