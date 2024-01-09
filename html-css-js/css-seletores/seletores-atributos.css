@@ -1,0 +1,22 @@
+a, li{
+    color: blue;
+    text-decoration: none;
+    font-size: 3rem;
+    list-style: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+a[href="seletores-compostos.html"]{  /*selecionando o elemento a mais que href*/
+    color: black;
+}
+
+a[href="#"]{ 
+    opacity: .2;
+    /*ideal para projeto em equipe deixa essas sub comandos add para não corre o risco dos dev esquece de aditar os links falso no projeto e manda para usuario final*/
+}
+a[target]{
+    background-color: green;
+}
+a[target="_blank"]{ /*quiser ser mais especifico*/
+    background-color: orangered;  
+}
