@@ -1,0 +1,24 @@
+a[target="_blank"]::after{
+    content: url(/html-css-js/css-seletores/imagens/newWindow-icon.png);
+    margin-left: .5rem;
+}
+a[href="qq.pdf"]::before{
+    content: url(imagens/pdf-icon.gif);
+    margin-right: .5rem;
+}
+input[type="checkbox"]:checked + label{
+    color: green;
+}
+input[type="checkbox"]:not(:disabled) label{
+    color: red;
+}
+input[type="checkbox"]:disabled+label{
+    color: blue;
+}
+
+label{
+    color: blue;
+}
+li:first-child{
+    color: blue;
+}

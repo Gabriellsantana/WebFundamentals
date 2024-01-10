@@ -1,0 +1,22 @@
+p:first-child{
+    color: blue;
+}
+p:last-child{
+    color: red;
+}
+p:nth-child(2){
+    background-color: chocolate;
+}
+p:last-of-type{ /*vai sempre pegar ultimo inguinorando qualquer elemento dele paragrafo*/
+    background-color: cyan;
+}
+p:first-of-type{  /*vai sempre pegar primeiro inguinorando qualquer elemento irmão acima dele paragrafo*/
+    opacity: 0.5;
+}
+p:nth-of-type(3){
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+li:nth-child(odd){ /*selecionando so os numero impar e pares oven*/
+    opacity: .2;
+}
