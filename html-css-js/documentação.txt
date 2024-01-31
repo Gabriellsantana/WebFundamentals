@@ -1,3 +1,8 @@
 git push fundamentosweb main
 
+crtl + :  comenmtar html
+crtl + Alt setaparabaixo ; multiplicaçao de barra de edição
+Shift + Alt  + setaparabaixo duplica alinha decima para baixo
+Shift + Alt  + setaparabaixo duplica alinha decima para baixo
 
+parei em "seletores compostos"
