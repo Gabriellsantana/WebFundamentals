@@ -1,6 +1,32 @@
 *{
     font-family:sans-serif;
 }
+h1{
+    background-color:blueviolet;
+}
+h2{
+    background-color:rgb(25, 152, 44);  
+}
 p{
     background-color:#ccc;
+}
+.destaque{
+    background-color: orange;
+}
+.width-height{
+    width: 50%;
+    height: 100px;
+}
+.margin{
+    margin: 30px;
+}
+.padding{
+    padding: 30px;
+}
+.border{
+    border-top: 10px double red; 
+    border-left: 10px ridge yellow;
+    border-right: 10px dotted  blue;
+    border-bottom: 10px groove violet; 
+    
 }
