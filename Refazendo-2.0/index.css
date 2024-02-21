@@ -1,0 +1,95 @@
+
+body{
+   font-family: sans-serif;  
+   width: 80%;
+   margin:auto;
+   margin-bottom: 90px;
+}
+h1{
+    background-color: rgba(0, 0, 241, 0.502);
+    text-align: center;
+    color: rgb(3, 3, 76);
+    padding: 10px;
+    font-size: 46px;
+}
+h1:hover{
+    background-color: rgb(3, 3, 76);
+    color: white;
+}
+.center{
+    text-align: center;
+}
+h2{
+    margin-top: 50px;
+    background-color: #ccc;
+    padding: 10px;
+    color: rgb(0, 0, 141);
+    border-bottom: solid 2px rgb(0, 0, 141); 
+
+}
+h2:hover{
+    background-color: rgb(3, 3, 76);
+    color: white;
+    text-align: center;
+}
+p{
+    text-align: justify;
+}
+
+ul{
+    padding-left: 0;
+}
+li{
+    list-style-position: inside;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration:underline;
+}
+
+.menu ul{
+    display: flex;
+    gap: 1rem;
+    justify-content: end;
+    padding: 20px;
+    
+}
+.menu li{
+    list-style: none;
+}
+
+.Git{
+    background-color: rgb(132, 1, 255);
+    color:white;
+}
+.Git:hover{
+    background-color: blueviolet;
+    color:white;
+}
+.Lin{
+    background-color: blue;
+    color: white;
+}
+.Lin:hover{
+    background-color: rgb(15, 15, 120);
+    color: white;
+}
+.You{
+  background-color: red;
+  color: black;
+}
+.You:hover{
+    background-color: black;
+    color: red;
+  }
+.menu a {
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 12px;
+    border-bottom: solid black ;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}

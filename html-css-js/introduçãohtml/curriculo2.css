@@ -12,12 +12,22 @@ body{
     font-size: 40px;
     
 }
+#h1gabriel:hover{
+    background-color: rgb(3, 3, 76);
+    color: white;
+    text-align: left;
+}
 h1{
     color: rgba(2, 2, 107, 0.918);
      background-color: #979696;
      border-bottom: solid  rgba(2, 2, 107, 0.918);
      padding: 10px;
      
+}
+h1:hover{
+    background-color: rgb(3, 3, 76);
+    color: white;
+    text-align: center;
 }
 #brasileiro{
     text-align: center;
