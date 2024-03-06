@@ -24,6 +24,7 @@ body{
     text-shadow: 3px 3px 3px white;
     text-transform: uppercase;
     font-size: 15px;
+    
 }
 
 .menuprincipal nav ul{
@@ -91,3 +92,8 @@ article h2{
     padding: 40px;
     letter-spacing: 2px;
 }
+
+/*
+A propriedade CSS width: fit-content; é usada para definir a largura de um elemento com base no seu conteúdo, de modo que o elemento se ajuste automaticamente para acomodar o conteúdo dentro dele sem exceder esse tamanho.
+
+*/
