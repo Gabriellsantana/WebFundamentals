@@ -71,7 +71,7 @@ p{
 }
 
 .Git{
-    background-color: rgb(132, 1, 255);
+    background-color: #8401ff;
     color:white;
 }
 .Git:hover{
@@ -102,4 +102,18 @@ p{
     border-radius: 12px;
     border-bottom: solid black ;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/*mudando a cor de body atraves das tag a*/
+body:has(.Git:hover) {
+    background-color: #8401ff;
+    transition: background-color 0.5s ease;
+}
+body:has(.Lin:hover){
+    background-color: blue;
+    transition: background-color 0.5s ease;
+}
+body:has(.You:hover){
+    background-color: red ;
+    transition: background-color 0.5s ease;
 }

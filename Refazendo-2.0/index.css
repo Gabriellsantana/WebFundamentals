@@ -1,3 +1,60 @@
-a{
+body{
+    width: 800px;
+    margin: auto;
+}
+
+.aa{
+    font-size: 30px;
+    margin: 12px;
+    display: inline-block;
+    text-decoration: none;
+    padding: 20px;
+    background-color: #ccc;
+    border-bottom: solid 3px ;
+    border-radius: 12px;
+    color: blue;
+}
+
+.a1:hover{
+    background-color: blueviolet;
+    color: white;
+    border-bottom:solid 3px  black;
+}
+.a1:active{
+    color:#1eff00;
+}
+
+.a2:hover{
+    background-color:#1eff00 ;
+    border-bottom: inset 3px green;
+    color: black;
+}
+.a2:active{
+    color: honeydew;
+}
+
+.a3:hover{
+    background-color: red;
+    color: black;
+    border-bottom: groove 3px ;
+}
+.a3:active{
+    background-color: black;
+    color:red;
+    border-bottom: groove 3px ;
+
+}
+.a4{
+    width: 21%;
     text-align: center;
+}
+.a4:hover{
+    background-color: blue;
+    color: white;
+    border-bottom: solid 3.5px #ff00c8 ;
+    font-family:sans-serif;
+}
+body:has(.a4:hover) {
+    background-color: blue;
+    transition: background-color 0.5s ease;
 }
