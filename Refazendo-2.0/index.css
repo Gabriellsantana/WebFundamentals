@@ -1,60 +1,45 @@
 body{
-    width: 800px;
-    margin: auto;
+  width: 79%;
+  margin: auto;
+  font-family: sans-serif;
 }
-
-.aa{
-    font-size: 30px;
-    margin: 12px;
-    display: inline-block;
-    text-decoration: none;
-    padding: 20px;
-    background-color: #ccc;
-    border-bottom: solid 3px ;
-    border-radius: 12px;
-    color: blue;
+header h1{
+    background-color: blue;
+    color:gold;
+    text-align: center;
+    text-transform:capitalize;
+    padding: 1px;
+    border-bottom: solid 3px;
+    font-size: 2.5rem;
 }
-
-.a1:hover{
-    background-color: blueviolet;
-    color: white;
-    border-bottom:solid 3px  black;
-}
-.a1:active{
-    color:#1eff00;
-}
-
-.a2:hover{
-    background-color:#1eff00 ;
-    border-bottom: inset 3px green;
-    color: black;
-}
-.a2:active{
-    color: honeydew;
-}
-
-.a3:hover{
-    background-color: red;
-    color: black;
-    border-bottom: groove 3px ;
-}
-.a3:active{
-    background-color: black;
-    color:red;
-    border-bottom: groove 3px ;
-
-}
-.a4{
-    width: 21%;
+header p{
     text-align: center;
 }
-.a4:hover{
-    background-color: blue;
-    color: white;
-    border-bottom: solid 3.5px #ff00c8 ;
-    font-family:sans-serif;
+nav li{
+  display: inline-block;
+  
 }
-body:has(.a4:hover) {
-    background-color: blue;
-    transition: background-color 0.5s ease;
+nav a{
+    background-color: #ccc;
+    padding: 15px;
+}
+
+main h2{
+    background-color: gold;
+    border-bottom: solid 3px goldenrod;
+    padding: 9px;
+}
+a{
+    color: blue;
+    text-decoration: none;
+    font-weight: 600;
+ 
+}
+
+ul{
+    padding-left: 0%;
+
+}
+li{
+    list-style-position:inside ;
 }

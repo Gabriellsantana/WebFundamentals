@@ -1,0 +1,37 @@
+body{
+    width: 79%;
+    margin: auto;
+    font-family: sans-serif;
+  }
+  header h1{
+      background-color: blue;
+      color:gold;
+      text-align: center;
+      text-transform:capitalize;
+      padding: 1px;
+      border-bottom: solid 3px;
+  }
+  header p{
+      text-align: center;
+      text-transform: capitalize;
+  }
+  main h2{
+      background-color: gold;
+      border-bottom: solid 3px goldenrod;
+      padding: 9px;
+  }
+  a{
+      color: blue;
+      text-decoration: none;
+      font-weight: 600;
+   
+  }
+  
+  ul{
+      padding-left: 0%;
+  
+  }
+  li{
+      list-style-position:inside ;
+  }
+  
