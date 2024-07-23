@@ -4,7 +4,7 @@ body{
     font-family: sans-serif;
 }
 header{
-    background-image: url(/html-css-js/PROJETOS/projeto-css-inicio/imagens/bg-3.jpg);
+    background-image: url(img/bg-3.jpg);
     background-size: cover;
     background-position: center;
     padding: 15px;
