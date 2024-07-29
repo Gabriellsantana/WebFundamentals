@@ -18,6 +18,7 @@ ul{
 }
 li{
     display: inline-block;
+    list-style-type: none;
 }
 header a{
     background-color: #6c6a6a8e;
@@ -29,6 +30,9 @@ header a{
     font-size: 20px;
     margin: 3px;
     box-sizing:border-box;
+}
+header a:hover{
+    background-color: black;
 }
 header h1{
     color: white;
@@ -54,7 +58,7 @@ div{
 }
 
 main{
-    width: 80%;
+    width: 70%;
     margin: auto;
 }
 article{
