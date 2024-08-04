@@ -1,32 +1,50 @@
-body{
-    width: 100%;
-    height: 1000px;
- }
- div{
-     border: solid 4px ;
-     height: 100px;
-     width: 200px;
-     padding: 12px;
-     background-color: #cccccca3;
- }
- 
- .div1{
-   height: 200px;
-   width: 80%;
-   background-color: rgba(127, 255, 212, 0.63);
-   bottom: 0;
- }
- .div2{
-   height: 100px;
-   width: 60%;
-   position: absolute;
-   background-color: rgba(255, 255, 0, 0.479);
- }
- .div3{
-   height: 50px;
-   width: 30%;
-   position: absolute;
-   right: 0;
-   bottom: 0;
+h1{
+  font-family: sans-serif;
+  text-align: center;
+  text-shadow: 2px 2px 2px greenyellow;
+  font-size: 90px;
+  font-weight: 700;
+  letter-spacing: 20px;
+}
+.container{
+  background-color: #ccc;
+  width: 500px;
+  padding: 15px;
+  position:relative;
+  margin: auto;
+}
+.container div{
+  color: white;
+  border: solid 1px black;
+  text-align: center;
+  font-weight: 600;
+  font-family: sans-serif;
+  margin: 12px;
+  width: 180px;
+  height: 100px;
   
- }
+}
+.relative{
+  background-color: #ff9100;
+  position: relative;
+  
+  left: 300px;
+  /*ela se posicionnamento referente a ela mesmo  se desloca levando em consideração o espaço que ela oculpava então o espaço original fica preservado*/
+}
+.absolute{
+  background-color: #0303ff;
+  position: absolute;
+  right: 10px;
+  /*o posicionamento absolute se posiciona  com algum elemento pai acima dele posicionado com alguma valor position menos istatic ele não matem seu espaçao original  caso não tenha ele posiciona ao documento to  o body e sai do fluxo do seu container*/
+}
+.fixed{
+  background-color:crimson;
+   position: fixed;
+   top: 200px;
+   /*ele se posiciona sempre com janela do browser aparti do posição inicial que ele esta , como se ele tivesse flutuando por todo o documento e acima dele */
+}
+.sticky{
+  background-color: fuchsia;
+  position: sticky;
+  /*ibrido do position relativo e fixed*/
+}

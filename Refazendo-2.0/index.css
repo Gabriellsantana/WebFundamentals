@@ -1,68 +1,33 @@
 .container{
-    padding: 12px;
-    overflow:auto;
-    width:  60%;
-    margin: auto;
-    
+    background-color: #ccc;
+    width: 500px;
+    padding: 15px;
+    position:relative;
 }
-
 .container div{
-    color: white;
-    text-align: center;
-    text-shadow: 2px 2px 2px black;
-    width: 200px;
-    height: 100px;
+    font-weight: 600;
+    font-family: sans-serif;
     margin: 12px;
-    font-weight: 900;
-    float: inline-end;
+    width: 180px;
+    height: 100px;
+    color: white;
+    border: solid 1px black;
 }
-
-#div1{
-    background-color: red;
+.relative{
+    background-color: #ff9100;
+    position:absolute;
+    top: 15px;
+    right: 15px;
 }
-#div2{
-    background-color:blue;
+.absolute{
+    background-color: #0303ff;
+    position:absolute;
+    top: 130px;
+    right: 15px;
 }
-#div3{
-    background-color: #08fc18; 
+.fixed{
+    background-color:crimson;
 }
-#div4{
-    background-color: deeppink; 
+.sticky{
+    background-color: fuchsia;
 }
-#div5{
-    background-color:orange;
-}
-#div6{
-    background-color:navy; 
-}
-#div7{
-    background-color:maroon;  
-}
-#div8{
-    background-color:aquamarine;  
-}
-#div9{
-    background-color: darkviolet; 
-}
-#div10{
-    background-color: coral; 
-}
-#div11{
-    background-color:fuchsia;
-}
-#div12{
-    background-color: yellow;
-}
-
-body:has(#div1:hover){ background-color: red;}
-body:has(#div2:hover){ background-color:blue;}
-body:has(#div3:hover){ background-color: #08fc18;}
-body:has(#div4:hover){ background-color: deeppink; }
-body:has(#div5:hover){ background-color:orange;}
-body:has(#div6:hover){ background-color:navy; }
-body:has(#div7:hover){ background-color:maroon;  }
-body:has(#div8:hover){ background-color:aquamarine;}
-body:has(#div9:hover){ background-color: darkviolet; }
-body:has(#div10:hover){ background-color: coral;}
-body:has(#div11:hover){ background-color:fuchsia;}
-body:has(#div12:hover){ background-color: yellow;}

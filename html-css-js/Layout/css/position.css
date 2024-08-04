@@ -1,25 +1,36 @@
+div{
+    border: solid 2px black;
+    margin: 10px;
+    padding: 10px;
+}
+
 #um{
     background-color: chartreuse;
     padding: 10px;
-    width: 90%;
+    width: 600px;
     height: 200px;
     
 }
 #dois{
     background-color: deepskyblue;
     padding: 10px;
-    width: 90%;
+    width: 400px;
     height: 120px;
 }
 
 #tres{
     background-color: gold;
     padding: 10px;
-    width: 80px;
-    height: 45px;
+    width: 200px;
+    height: 100px;
     position: absolute;
     bottom: 20px;
 
+}
+#tress{
+    background-color: red;
+    width: 200px;
+    height: 100px;
 }
 
 /*O elemento position em CSS é usado para controlar como um elemento HTML é posicionado em relação ao seu contêiner ou à página como um todo. Existem quatro valores principais para a propriedade position:*/
