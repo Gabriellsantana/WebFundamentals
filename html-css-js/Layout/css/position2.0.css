@@ -35,7 +35,8 @@ h1{
   background-color: #0303ff;
   position: absolute;
   right: 10px;
-  /*o posicionamento absolute se posiciona  com algum elemento pai acima dele posicionado com alguma valor position menos istatic ele não matem seu espaçao original  caso não tenha ele posiciona ao documento to  o body e sai do fluxo do seu container*/
+  /*o posicionamento absolute se posiciona  com base  no elemento pai acima dele que esteja posicionado com alguma valor position menos istatic ele não matem seu espaçao original  caso não tenha um elemento pai posicionado ele se posiciona ao documento do body e sai do fluxo do seu container*/
+  
 }
 .fixed{
   background-color:crimson;
@@ -46,5 +47,6 @@ h1{
 .sticky{
   background-color: fuchsia;
   position: sticky;
-  /*ibrido do position relativo e fixed*/
+  /*ibrido do position relativo e fixed  ele so funcionar se pai dele tiver scroll barra de rolagem então*/
+  
 }
