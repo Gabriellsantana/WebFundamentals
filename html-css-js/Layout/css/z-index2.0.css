@@ -1,0 +1,42 @@
+.container{
+    background-color: #ccc;
+    width: 500px;
+    padding: 15px;
+    position:relative;
+    margin: auto;
+}
+.container div{
+    font-weight: 600;
+    font-family: sans-serif;
+    margin: 12px;
+    width: 180px;
+    height: 100px;
+    color: white;
+    border: groove 2px black;
+}
+.tela1{
+    background-color: #ff9100;
+    position: relative;
+    z-index: 1;
+}
+.tela2{
+    background-color: #0303ff;
+    position: relative;
+    bottom: 40px;
+    left: 30px;
+   z-index: 2;
+}
+.tela3{
+    background-color:crimson;
+    position: relative;
+    bottom: 70px;
+    left: 70px;
+    z-index: 3;
+}
+.tela4{
+    background-color: fuchsia;
+    position: relative;
+    bottom: 100px;
+    left: 100px;
+    z-index: 4;
+}
