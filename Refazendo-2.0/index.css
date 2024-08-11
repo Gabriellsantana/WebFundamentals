@@ -3,6 +3,7 @@
     width: 500px;
     padding: 15px;
     position:relative;
+    margin: auto;
 }
 .container div{
     font-weight: 600;
@@ -11,23 +12,31 @@
     width: 180px;
     height: 100px;
     color: white;
-    border: solid 1px black;
+    border: groove 2px black;
 }
-.relative{
+.tela1{
     background-color: #ff9100;
-    position:absolute;
-    top: 15px;
-    right: 15px;
+    position: relative;
+    z-index: 1;
 }
-.absolute{
+.tela2{
     background-color: #0303ff;
-    position:absolute;
-    top: 130px;
-    right: 15px;
+    position: relative;
+    bottom: 40px;
+    left: 30px;
+   z-index: 2;
 }
-.fixed{
+.tela3{
     background-color:crimson;
+    position: relative;
+    bottom: 70px;
+    left: 70px;
+    z-index: 3;
 }
-.sticky{
+.tela4{
     background-color: fuchsia;
+    position: relative;
+    bottom: 100px;
+    left: 100px;
+    z-index: 4;
 }
