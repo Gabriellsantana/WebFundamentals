@@ -22,7 +22,6 @@ body{
 img{
     width: 95px;
     border-radius: 500px;
-    box-shadow: 5px 4px 6px black;
 }
 article{
     display: flex;
@@ -33,11 +32,12 @@ article{
     border-bottom: 1px solid #ccc;
 }
 h3{
-    margin: 0;
+    margin: 3px;
     font-family: sans-serif;
     letter-spacing: 1.5px;
     text-transform: capitalize;
-    font-weight: 500;
+    font-weight: 600;
+    color: #385555;
 }
 section a{
     text-decoration: none;
