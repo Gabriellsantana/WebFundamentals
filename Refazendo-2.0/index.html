@@ -3,79 +3,83 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>lista de contatos legos</title>
+    <title>Planos Cards</title>
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
+     <!--
     <h1 style="color: green; font-size: 3rem; text-align: center;margin: 0;">REFAZENDO <mark>2.0</mark></h1>
      <p style="text-align: center; font-size: 2.5rem;margin: 0;"><a href="https://trello.com/b/E0L34haD/student-development" target="_blank">https://trello.com</a> </p>
        <hr>
-     <!-- abixo refazendo acima padrão -->
-        
-        <!-- <img src="/html-css-js/introduçaoImagens/r-jogadores/neymar.webp" alt=""> -->
-  
-         <h1 class="titulo-principal" style="text-align: center;">legos de contatos</h1>
-       <div class="centralizar">
-          <main class="container">
-               <article>
-               
-                <img src="https://randomuser.me/api/portraits/lego/1.jpg" alt="">
-                <section>
-                    <h3>gabriel santana</h3>
-                    <a href="#">mestre.gabriel@gmail.com</a>
-                  </section>
-              </article>
-              <article>
-                <img src="https://randomuser.me/api/portraits/lego/2.jpg" alt="">
-                  <section>
-                    <h3>joão victor</h3>
-                    <a href="#">joao.victorr@gmail.com</a>
-                  </section>
-                  <!-- <img src="/html-css-js/PROJETOS/projeto_contatos/imagens/delete.png" alt="" class="logos"> -->
-              </article>
-              <article>
-                <img src="https://randomuser.me/api/portraits/lego/6.jpg" alt="">
-                  <section>
-                    <h3>Marcos Vincius</h3>
-                    <a href="#">marcos13.brasil@gmail.com</a>
-                  </section>
-              </article>
-              <article>
-                <img src="https://randomuser.me/api/portraits/lego/8.jpg" alt="">
-                  <section>
-                    <h3>Raimundo Cerqueira</h3>
-                    <a href="#">naruto.brasil@gmail.com</a>
-                  </section>
-              </article>
-              <article>
-                <img src="https://randomuser.me/api/portraits/lego/4.jpg" alt="">
-                  <section>
-                    <h3>Naruto</h3>
-                    <a href="#">naruto.brasil@gmail.com</a>
-                  </section>
-              </article>
-              <article>
-                <img src="https://randomuser.me/api/portraits/lego/0.jpg" alt="">
-                  <section>
-                    <h3>Naruto</h3>
-                    <a href="#">naruto.brasil@gmail.com</a>
-                  </section>
-              </article>
-              <article>
-                <img src="https://randomuser.me/api/portraits/lego/7.jpg" alt="">
-                  <section>
-                    <h3>Naruto</h3>
-                    <a href="#">naruto.brasil@gmail.com</a>
-                  </section>
-              </article>
-              <article>
-                <img src="https://randomuser.me/api/portraits/lego/5.jpg" alt="">
-                  <section>
-                    <h3>Naruto</h3>
-                    <a href="#">naruto.brasil@gmail.com</a>
-                  </section>
-              </article>
-          </main>
-        </div>
+     abixo refazendo acima padrão -->
+      
+     
+     <header class="header">
+      <nav class="nav-bar">
+        <div class="logo">myserver</div>
+        <ul>
+          <li><a href="#">home</a></li>
+          <li><a href="#">planos</a></li>
+          <li><a href="#">suporte</a></li>
+          <li><a href="#">contato</a></li>
+        </ul>
+    </nav>
+     </header>
+
+     <h1 class="title-escolha">escolha seu plano</h1>
+
+     <main class="container-principal" id="container-principal">
+         <article class="card">
+            <section>
+              <div class="div-titulo-card"><h3>essencial</h3></div>
+              <div class="div-valor-card"><p><span>R$ 3.95</span>/mês</p></div>
+              <ul>
+                <li><p>1website</p></li>
+                <li><p>1GB armazenamento</p></li>
+                <li><p>10GB de transferencia</p></li>
+              </ul>
+              <div class="div-butao">
+                 <a href="#" class="butao">assine ja</a>
+              </div>
+            </section>
+         </article>
+
+         <article class="card">
+           <section>
+            <div class="div-titulo-card"><h3>premium</h3></div>
+            <div class="div-valor-card"><p><span>R$ 10.95</span>/mês</p></div>
+            <ul>
+              <li><p>5website</p></li>
+              <li><p>3GB armazenamento</p></li>
+              <li><p>transferencia ilimitada</p></li>
+              <li><p>10 horas de suporte mensais</p></li>
+            </ul>
+            <div class="div-butao">
+               <a href="#" class="butao">assine ja</a>
+            </div>
+           </section>
+       </article>
+
+       <article class="card">
+          <section>
+            <div class="div-titulo-card"><h3>premium</h3></div>
+            <div class="div-valor-card"><p><span>R$ 10.95</span>/mês</p></div>
+            <ul>
+              <li><p>5website</p></li>
+              <li><p>3GB armazenamento</p></li>
+              <li><p>transferencia ilimitada</p></li>
+              <li><p>10 horas de suporte mensais</p></li>
+              <li><p>email personalizado</p></li>
+            </ul>
+            <div class="div-butao">
+               <a href="#" class="butao">assine ja</a>
+            </div>
+          </section>
+       </article>
+     </main>
+
+
+
+       
 </body>
 </html>

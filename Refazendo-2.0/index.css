@@ -1,37 +1,111 @@
 body{
-    background-color: #eee;
-}
-h3{
-    text-transform: uppercase;
-}
-img{
-    width: 30%;
-    border-radius: 50%;
-    margin-top: 90px;
-}
-main{ 
+    background-color: #0c1014;
+    color: white;
+    width: 80%;
     margin: auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.header{
+    padding: 16px;
+    background-color: black;
+}
+.nav-bar{
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    font-size: 30px;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 1px #ff00f7;
+    font-weight: 600;
+}
+.nav-bar ul{
+    display: flex;
     gap: 1rem;
 }
-article{
-    background-image: url(/Refazendo-2.0/projetos/projeto1/img/bg-3.jpg);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-color: white;
-    flex-basis: 300px;
-    text-align: center;
-    border-radius: 5px;
+.nav-bar li{
+   list-style-type: none;
 }
-section{
-    margin-top: 90px;
-    margin: 0;
+.nav-bar a{
+    color: white;
+    border-radius: 5px;
     padding: 12px;
+    font-size: 20px;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+.nav-bar a:hover{
+    background-color: orchid;
+    border-radius: 5px;
+    color: black;
+    box-shadow: 2px 2px 6px white;
 }
 
-a{
-    text-decoration: none;
-    color: #ccc;
+.title-escolha{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 60px;
+    text-shadow: 1px 1px 6px orchid;
+}
+
+.container-principal{
+    margin-bottom: 30px;
+    display: flex;
+    gap: 1rem;
+    border-radius: 30px;
+    padding: 15px;
+}
+.card{
+    background-color: #1d2227;
+    box-shadow: 1px 1px 5px white;
+    padding: 12px;
+    height: 430px;
+    border-radius: 9px;
+    flex:1;  
+  
+}
+.card section{
+    margin: 10px; 
+    /* display: flex;
+    flex-direction: column; */
+}
+.card .div-titulo-card{
+    text-transform: uppercase;
+    border-bottom: 2px solid orchid;
+    letter-spacing: 2px;
+}
+.card span{
+    font-size: 25px;
+    font-weight: 700;
+    text-shadow: 1px 1px 1px #ffff00
+}
+.card ul{
+    padding-left: 16px;
+}
+.card li{
+    color: orchid;
+    line-height: 1.8;
+}
+.card p{
+    color: white;
+    font-size: 15px;
+}
+.div-butao{
+    text-align: center;
+    background-color: orchid;
+    padding: 12px;
+    border-radius: 5px;
+    position: relative;
+
+}
+
+.butao{
+    text-decoration:none;
+    color:white;
+    font-size: 20px;
+    font-weight: 500;
+}
+.div-butao:hover{
+    box-shadow: 1px 1px 10px orchid;
 }
